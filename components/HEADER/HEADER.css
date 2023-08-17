@@ -1,0 +1,25 @@
+.header {
+  padding: 20px 0;
+  width: 100%;
+  background: #7592c9;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.nav_item {
+  color: rgb(4, 31, 77);
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nav_item:hover {
+  color: rgb(255, 255, 255);
+}

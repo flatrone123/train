@@ -1,0 +1,46 @@
+.triceps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.triceps_aside {
+  background: red;
+}
+
+.triceps_aside ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.triceps_podhod {
+  padding: 20px 50px;
+  font-size: 24px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+
+
+.triceps_main{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #52a79f;
+  text-align: center;
+}
+
+.triceps_title {}
+
+.break {
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.break_podhod {
+
+}

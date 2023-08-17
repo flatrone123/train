@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b3b3b3;
+}
+
+
+
+
+/* header */
+
+.header {
+  display: flex;
+  height: 70px;
+  background: #8fa2bb;
+}
+
+ul {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  padding: 10px 20px;
+  font-size: 32px;
+  color: white;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.today {
+  background: #5b46ce;
+}
+
+
+
+
+/* podhod */
+.container {
+  /* margin: 20px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.podhod {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #c7fdff;
+}
+
+.podhod__title {
+  padding: 10px;
+  font-size: 30px;
+  background: #f3ff86;
+}
+
+.podhod__main {
+}
+
+.podhod__exercise{
+  padding: 5px 10px;
+}
+
+.podhod__exercise__title{
+  font-size: 30px;
+}
+
+.podhod__exercise__breik{
+  font-size: 24px;
+}
+
+.podhod__breik{
+  padding: 10px;
+  width: 100%;
+  font-size: 24px;
+}
+
+
+
+
+
+.podhod__done{
+  visibility: hidden;
+}
