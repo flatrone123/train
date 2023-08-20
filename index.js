@@ -1,6 +1,6 @@
 function render() {
-  header.render();
-  triceps.render()
+  // header.render();
+  biceps.render()
 } 
 
 render();
