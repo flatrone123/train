@@ -1,6 +1,5 @@
 function render() {
-  // header.render();
-  biceps.render()
+  header.render();
 } 
 
 render();
